@@ -6,6 +6,8 @@
         "laravel",
         "model",
         "encryption",
+        "encrypt",
+        "eloquent",
         "trait"
     ],
     "homepage": "https://github.com/wwardaww/laravel-id-cryption",
