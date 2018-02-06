@@ -3,7 +3,9 @@
 [![Latest Stable Version](https://poser.pugx.org/wwardaww/laravel-id-cryption/version)](https://packagist.org/packages/wwardaww/laravel-id-cryption)
 [![License](https://poser.pugx.org/wwardaww/laravel-id-cryption/license)](https://packagist.org/packages/wwardaww/laravel-id-cryption)
 
-This Trait **Encrypt** Your Data *(from database or somewhere)* or, **Decrypt** Your data *(from client or somewhere)* and it doesn't effect your real data *(from data source)*
+This Trait **Encrypt** Your Data *(from database or somewhere)* or, **Decrypt** Your data *(from client or somewhere)* and it doesn't effect your real data *(from data source)*.
+
+> Based on [samwhisker/laravel-trait-encrypt](https://github.com/samWhisker/laravel-trait-encrypt)
 
 ### Installing
 
