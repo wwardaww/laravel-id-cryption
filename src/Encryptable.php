@@ -7,7 +7,7 @@
  */
 
 
-namespace Wwardaww\Traits;
+namespace Wwardaww;
 use Crypt;
 
 trait Encryptable
