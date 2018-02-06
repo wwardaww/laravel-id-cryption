@@ -41,20 +41,20 @@ use Wwardaww\Encryptable;
 
 ### Usage
 
-##### Example Table on Your Data Source
+#### Example Table on Your Data Source
 
 
 |ID       |Name           |
 |---------|---------------|
 |5        |Ahmet Oğuz     |
 
-##### Get Object Whit Encrypted Id
+#### Get Object Whit Encrypted Id
 ```php
 $encryptedId = "eyJpdiI6IlpxVWtpMGt4dERZbkRcL3hXVTZLKzVRPT0iLCJ2YWx1ZSI6IkhUNzF3MEFsRW1cL2tcLzVTRlZ6QmVaZz09IiwibWFjIjoiZTI5M2JiZTRiNzA2NGVjMTIwNmJhNWZjNjA4YmRmY2NlNzIxYTA2MWM3YTI1ZjVlYzQyMWQ5MzIwZDBlYzQ1OSJ9"
 $data = YourModel::decryptFind($encrptedId);
 ```
 
-##### Get Encrypted Data 
+#### Get Encrypted Data 
 
 ```php
 $data = YourModel::where('somewhere','data')->get()->toArray();
@@ -75,12 +75,12 @@ Array(
  $data->name = "Ahmet Oğuz"
 ```
 
-##### Disable Encryption Specific Function
+#### Disable Encryption Specific Function
 
 - You Should Add Your Function to **$hiddenFunctions** in Your Model File
 - When You Call Your Model in This Function , Result will be : 
 
-###### Call
+##### Call
 ```php
 public function someDefaultFunc2(Request $req){
     $data = YourModel::where('somewhere','data')->get()->toArray();
@@ -88,7 +88,7 @@ public function someDefaultFunc2(Request $req){
 }
 
 ```
-###### Result
+##### Result
 ```php
 Array(
     [
